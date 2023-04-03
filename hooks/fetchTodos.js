@@ -24,7 +24,7 @@ export default function useFetchTodos() {
                 
             } catch (err){
                 setError('Failed to load todos')
-                console.log(err)
+                
             } finally {
                 setLoading(false)
             }
